@@ -121,7 +121,7 @@ function App() {
 
   return (
     <>  
-      <h1>TodoList</h1>
+      <h1>Lista de Tareas</h1>
       <Form createTodo={createTodoHandler} /> <br />
       <hr />
       <Todo todoList={todos} deleteTodo={deleteTodoHandler} />
