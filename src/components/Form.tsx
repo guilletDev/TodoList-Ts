@@ -33,8 +33,8 @@ export const Form = ({createTodo}:props)=>{
     
     return (
         <form onSubmit={submitHandler}>
-            <input type="text" onChange={changeHandler } /> <br /> <br />
-            <button type="submit" disabled={!todoText}>Agregar Tarea</button>
+            <input onChange={changeHandler } placeholder="Introduce tarea..." className="input" name="text" type="text"></input> <br /> <br />
+            <button type="submit" disabled={!todoText}>Agregar</button>
         </form>
     )
 }
